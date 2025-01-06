@@ -2,6 +2,7 @@ package Amazon;
 import java.util.*;
 
 public class K_Sized_Subarray_Maximum {
+    // Time complexity : O(n) | Space complexity : O(k)
     public static ArrayList<Integer> maxOfSubarrays(int arr[], int k) {
         ArrayList<Integer> result = new ArrayList<>();
         Deque<Integer> dq = new ArrayDeque<>();
