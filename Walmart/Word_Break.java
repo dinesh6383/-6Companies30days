@@ -25,8 +25,6 @@ public class Word_Break {
     public static void main(String[] args) {
         String s = "catsanddog";
         List<String> wordDict = new ArrayList<>();
-        // wordDict.add("leet");
-        // wordDict.add("code");
         wordDict.add("cats");
         wordDict.add("dogs");
         wordDict.add("sand");
