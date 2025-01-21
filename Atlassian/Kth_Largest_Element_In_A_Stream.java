@@ -5,8 +5,8 @@ import java.util.PriorityQueue;
 class kthLargest {
     int k;
     PriorityQueue<Integer> pq = new PriorityQueue<>();
-    public kthLargest(int k, int[] nums) {
-        this.k = k;
+    public kthLargest(int max, int[] nums) {
+        this.k = max;
         for(int num : nums) {
             this.add(num);
         }
